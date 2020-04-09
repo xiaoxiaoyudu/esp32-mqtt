@@ -22,11 +22,11 @@ Page({
     options:
      {
       
-      clientId: 'espxcx',
+      clientId: '这里是你的id',
       clean: true,
       keepalive: 60,
-      password: 'HlN7Y72AD0N8Fvp0',
-      username: 'y51pfks/wx_xcx',
+      password: '你的密码',
+      username: '你的用户名',
       reconnectPeriod: 1000, //1000毫秒，两次重新连接之间的间隔
       connectTimeout: 30 * 1000, //1000毫秒，两次重新连接之间的间隔
       resubscribe: true //如果连接断开并重新连接，则会再次自动订阅已订阅的主题（默认true）
@@ -35,10 +35,8 @@ Page({
     {
       LEDcontrolTopic: 'sw_led',
     },
-    value: {
-     // Humdlogo: './../images/humd.png',
+    value: { 
       HumdValue: 0,
-     // Templogo: './../images/temp.png',
       TempValue: 0,
       winshow:true
 
