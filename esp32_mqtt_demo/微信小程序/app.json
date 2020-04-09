@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/product/product",
+    "pages/user/user"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "智能家居助手",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+      "color": "#a9b7b7",
+      "selectedColor": "#11cd6e",
+      "borderStyle": "black",
+      "list": [
+      {
+            "selectedIconPath": "images/home.png",
+            "iconPath": "images/home.png",
+            "pagePath": "pages/index/index",
+            "text": "首页"  
+
+      },
+      {
+             "selectedIconPath": "images/me.png",
+             "iconPath": "images/me.png",
+             "pagePath": "pages/user/user",
+            "text": "我的"  
+
+      }
+
+    ]
+    },
+  "sitemapLocation": "sitemap.json"
+}

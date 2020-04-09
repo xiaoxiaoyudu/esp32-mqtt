@@ -1,0 +1,50 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/esp32/sources/esp-idf/components/esp_common/include",
+                "/esp32/sources/esp-idf/components/esp32/include",
+                "/esp32/sources/esp-idf/components/freertos/include",
+                "/esp32/sources/esp-idf/components/spi_flash/include",
+                "/esp32/sources/esp-idf/components/newlib/include",
+                "/esp32/sources/esp-idf/components/fatfs/test_fatfs_host/sdkconfig",
+                "/esp32/sources/esp-idf/components/xtensa/include",
+                "/esp32/sources/esp-idf/components/xtensa/esp32/include",
+                "/esp32/sources/esp-idf/components/efuse/include",
+                "/esp32/sources/esp-idf/components/efuse/esp32/include",
+                "/esp32/sources/esp-idf/components/log/include",
+                "/esp32/sources/esp-idf/components/heap/include",
+                "/esp32/sources/esp-idf/components/esp_rom/include",
+                "/esp32/sources/esp-idf/components/soc/include",
+                "/esp32/sources/esp-idf/components/driver/include",
+                "/esp32/sources/esp-idf/components/soc/esp32/include",
+                "/esp32/sources/esp-idf/components/esp_wifi/include",
+                "/esp32/sources/esp-idf/components/esp_event/include",
+                "/esp32/sources/esp-idf/components/tcpip_adapter/include",
+                "/esp32/sources/esp-idf/components/esp_ringbuf/include",
+                "/esp32/sources/esp-idf/components/nvs_flash/include",
+                "/esp32/sources/esp-idf/components/lwip/lwip/src/include",
+                "/esp32/sources/esp-idf/components/coap/libcoap/examples/lwip",
+                "/esp32/sources/esp-idf/components/lwip/lwip/test/unit/esp",
+                "/esp32/sources/esp-idf/components/json/cJSON"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": "",
+                "path": [
+                    "${workspaceFolder}/**",
+                    "/esp32/sources/esp-idf/components",
+                    "/esp32/crossTools/xtensa-esp32-elf"
+                ]
+            },
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}

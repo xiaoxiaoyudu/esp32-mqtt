@@ -1,0 +1,26 @@
+<view class="photo">
+  <view class="userinfo">
+      <view bindtap='toggleDialog'>
+    <image style="width: 50px; height: 50px; background-color: #0000;"src="../../images/led.png" >            </image>
+   </view> 
+     
+  </view>
+</view>
+
+
+
+<view class="zan-dialog {{ showDialog ? 'zan-dialog--show' : '' }}">
+  <view class="zan-dialog__mask" bindtap="toggleDialog" />
+  <view class="zan-dialog__container">
+    <view style='padding:100rpx;'>
+     <view bindtap='check'>
+      <image style="width: 50px; height: 50px; background-color: #0000;"src="{{scr}}" >            </image>
+      点击图标控制开关
+      </view>
+
+    
+    </view>
+  </view>
+</view>
+
+

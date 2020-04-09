@@ -1,0 +1,21 @@
+<!--pages/product/product.wxml-->
+<view class="photo">
+  <view class="userinfo">
+      <image bindtap="bindViewTap"  style="width: 50px; height: 50px; background-color: #0000;"
+        src="../../images/and.png" mode="cover">
+        </image>添加设备
+     
+  </view>
+</view>
+<view class="title">
+     所有产品
+  </view>
+  
+<view class='pro'>
+    <block wx:for="{{prodata}}" data-item="item" wx:for-index="idx" >
+    
+    <image style="width: 50px; height: 50px; background-color: #0000;"src="{{item.scr}}" >            </image>
+    
+   </block>
+</view>
+

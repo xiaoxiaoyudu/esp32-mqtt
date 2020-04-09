@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "esp_system.h": "c",
+        "freertos.h": "c",
+        "err.h": "c",
+        "time.h": "c",
+        "stdio.h": "c",
+        "cjson.h": "c"
+    },
+    "C_Cpp.dimInactiveRegions": false
+}
