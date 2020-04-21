@@ -169,11 +169,11 @@ static esp_err_t mqtt_event_handler(esp_mqtt_event_handle_t event)
 static void mqtt_app_start(void)
 {
     esp_mqtt_client_config_t mqtt_cfg = {
-        .host = "112.34.115.12",
+        .host = "ip",
         .event_handle = mqtt_event_handler,
-        .username="y51pfks/esp32",
-        .password="iVrZAm0fsg0cfg8C",
-        .client_id="esp32",
+        .username="用户名",
+        .password="密码",
+        .client_id="设备id",
         .keepalive=60
 
         // .user_context = (void *)your_context

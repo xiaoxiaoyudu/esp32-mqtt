@@ -127,11 +127,11 @@ static void mqtt_event_handler(void *handler_args, esp_event_base_t base, int32_
 static void mqtt_app_start(void)
 {
     esp_mqtt_client_config_t mqtt_cfg = {
-        .host = "47.92.29.155",
+        .host = "ip地址",
         .event_handle = mqtt_event_handler,
-        .username="wlw",
-        .password="wlw12138",
-        .client_id="esp32",
+        .username="用户名",
+        .password="密码",
+        .client_id="设备id",
         .keepalive=60
     };
 #if CONFIG_BROKER_URL_FROM_STDIN
